@@ -1,0 +1,15 @@
+{
+  "name": "webhook-apex",
+  "version": "1.0.0",
+  "description": "Servidor simples para receber webhook",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5"
+  }
+}
